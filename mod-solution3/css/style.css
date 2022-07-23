@@ -1,0 +1,27 @@
+*{
+    font-family: sans-serif;
+}
+@media (min-width:992px){
+    .nav-item{
+        display: none;
+    }
+}
+#chicken{
+    border: solid black 2px;
+    background-color: gray;
+    margin: 30px 50px;
+    padding: 10px;
+}
+.chicken-title{
+    text-align: center;
+}
+.menu-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-item{
+    text-align: center;
+}
+.navbar-toggler:active{
+    background-color: white;
+}
